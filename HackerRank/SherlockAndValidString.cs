@@ -14,7 +14,7 @@ namespace HackerRank
         {
             int[] freq = new int[CHARS];
             int i = 0;
-            // freq[] : stores the frequency of each  
+            // freq[] : stores the frequency of each
             // character of a string  
             for (i = 0; i < s.Length; i++)
             {
@@ -84,24 +84,24 @@ namespace HackerRank
             // Return true if we reach here  
             return true;
         }
-        static void Main(string[] args)
-        {
-            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        //static void Main(string[] args)
+        //{
+        //    //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            string s = Console.ReadLine();
-            string output = "";
+        //    string s = Console.ReadLine();
+        //    string output = "";
 
-            if (isValid(s))
-                output = "YES";
-            else
-                output = "NO";
+        //    if (isValid(s))
+        //        output = "YES";
+        //    else
+        //        output = "NO";
 
-            Console.WriteLine(output);
-            Console.ReadKey();
-            //textWriter.WriteLine(output);
+        //    Console.WriteLine(output);
+        //    Console.ReadKey();
+        //    //textWriter.WriteLine(output);
 
-            //textWriter.Flush();
-            //textWriter.Close();
-        }
+        //    //textWriter.Flush();
+        //    //textWriter.Close();
+        //}
     }
 }
