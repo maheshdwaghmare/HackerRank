@@ -27,25 +27,25 @@ namespace HackerRank
             return stack.Count == 0 ? "YES" : "NO";
         }
 
-        static void Main(string[] args)
-        {
-            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        //static void Main(string[] args)
+        //{
+        //    //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            int t = Convert.ToInt32(Console.ReadLine());
+        //    int t = Convert.ToInt32(Console.ReadLine());
 
-            for (int tItr = 0; tItr < t; tItr++)
-            {
-                string s = Console.ReadLine();
+        //    for (int tItr = 0; tItr < t; tItr++)
+        //    {
+        //        string s = Console.ReadLine();
 
-                string result = isBalanced(s);
+        //        string result = isBalanced(s);
 
-                //textWriter.WriteLine(result);
-                Console.WriteLine(result);
-                Console.ReadKey();
-            }
+        //        //textWriter.WriteLine(result);
+        //        Console.WriteLine(result);
+        //        Console.ReadKey();
+        //    }
 
-            //textWriter.Flush();
-            //textWriter.Close();
-        }
+        //    //textWriter.Flush();
+        //    //textWriter.Close();
+        //}
     }
 }
