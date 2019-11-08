@@ -1,0 +1,7 @@
+D:\WorkSamples\HackerRank\HackerRank\obj\Debug\HackerRank.csproj.CoreCompileInputs.cache
+D:\WorkSamples\HackerRank\HackerRank\obj\Debug\SockMerchant.exe
+D:\WorkSamples\HackerRank\HackerRank\obj\Debug\SockMerchant.pdb
+D:\WorkSamples\HackerRank\HackerRank\bin\Debug\SockMerchant.exe.config
+D:\WorkSamples\HackerRank\HackerRank\bin\Debug\SockMerchant.exe
+D:\WorkSamples\HackerRank\HackerRank\bin\Debug\SockMerchant.pdb
+D:\WorkSamples\HackerRank\HackerRank\obj\Debug\HackerRank.csprojAssemblyReference.cache
