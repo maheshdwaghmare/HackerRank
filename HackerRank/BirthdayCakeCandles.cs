@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SockMerchant
+namespace HackerRank
 {
     class BirthdayCakeCandles
     {
@@ -21,16 +21,16 @@ namespace SockMerchant
 
             return candleCounter;
         }
-        static void Main(string[] args)
-        {
-            int arCount = Convert.ToInt32(Console.ReadLine());
+        //static void Main(string[] args)
+        //{
+        //    int arCount = Convert.ToInt32(Console.ReadLine());
 
-            int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp))
-            ;
-            int result = birthdayCakeCandles(ar);
+        //    int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp))
+        //    ;
+        //    int result = birthdayCakeCandles(ar);
 
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //}
     }
 }

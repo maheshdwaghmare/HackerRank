@@ -32,20 +32,20 @@ namespace HackerRank
             return count;
         }
 
-        static void Main(string[] args)
-        {
-            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        //static void Main(string[] args)
+        //{
+        //    //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            int n = Convert.ToInt32(Console.ReadLine());
+        //    int n = Convert.ToInt32(Console.ReadLine());
 
-            string s = Console.ReadLine();
+        //    string s = Console.ReadLine();
 
-            int result = countingValleys(n, s);
+        //    int result = countingValleys(n, s);
 
-            //textWriter.WriteLine(result);
+        //    //textWriter.WriteLine(result);
 
-            //textWriter.Flush();
-            //textWriter.Close();
-        }
+        //    //textWriter.Flush();
+        //    //textWriter.Close();
+        //}
     }
 }

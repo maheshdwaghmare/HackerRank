@@ -45,12 +45,16 @@
     <Compile Include="BigSum.cs" />
     <Compile Include="BirthdayCakeCandles.cs" />
     <Compile Include="CompareTriplets.cs" />
+    <Compile Include="CountingValleys.cs" />
     <Compile Include="DiagonalDifference.cs" />
+    <Compile Include="JumpingClouds.cs" />
     <Compile Include="MagicSquare.cs" />
     <Compile Include="MiniMaxSum.cs" />
     <Compile Include="PlusMinus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepeatedString.cs" />
+    <Compile Include="SherlockAndValidString.cs" />
+    <Compile Include="SockMerchant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
