@@ -33,25 +33,25 @@ namespace HackerRank
 
             return max_sum;
         }
-        static void Main(string[] args)
-        {
-            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        //static void Main(string[] args)
+        //{
+        //    //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            int[][] arr = new int[6][];
+        //    int[][] arr = new int[6][];
 
-            for (int i = 0; i < 6; i++)
-            {
-                arr[i] = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
-            }
+        //    for (int i = 0; i < 6; i++)
+        //    {
+        //        arr[i] = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+        //    }
 
-            int result = hourglassSum(arr);
+        //    int result = hourglassSum(arr);
 
-            Console.WriteLine(result);
-            Console.ReadKey();
-            //textWriter.WriteLine(result);
+        //    Console.WriteLine(result);
+        //    Console.ReadKey();
+        //    //textWriter.WriteLine(result);
 
-            //textWriter.Flush();
-            //textWriter.Close();
-        }
+        //    //textWriter.Flush();
+        //    //textWriter.Close();
+        //}
     }
 }
