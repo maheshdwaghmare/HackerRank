@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\2DArray.cs" />
+    <Compile Include="Arrays\MinimumSwaps2.cs" />
     <Compile Include="BalancedBrackets.cs" />
     <Compile Include="BigSum.cs" />
     <Compile Include="BirthdayCakeCandles.cs" />

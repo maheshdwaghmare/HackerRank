@@ -32,19 +32,19 @@ namespace HackerRank
                 Console.WriteLine(bribe);
         }
 
-        static void Main(string[] args)
-        {
-            int t = Convert.ToInt32(Console.ReadLine());
+        //static void Main(string[] args)
+        //{
+        //    int t = Convert.ToInt32(Console.ReadLine());
 
-            for (int tItr = 0; tItr < t; tItr++)
-            {
-                int n = Convert.ToInt32(Console.ReadLine());
+        //    for (int tItr = 0; tItr < t; tItr++)
+        //    {
+        //        int n = Convert.ToInt32(Console.ReadLine());
 
-                int[] q = Array.ConvertAll(Console.ReadLine().Split(' '), qTemp => Convert.ToInt32(qTemp));
-                minimumBribes(q);
+        //        int[] q = Array.ConvertAll(Console.ReadLine().Split(' '), qTemp => Convert.ToInt32(qTemp));
+        //        minimumBribes(q);
 
-                Console.ReadKey();
-            }
-        }
+        //        Console.ReadKey();
+        //    }
+        //}
     }
 }
