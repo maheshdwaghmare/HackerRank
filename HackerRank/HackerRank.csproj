@@ -50,6 +50,7 @@
     <Compile Include="CompareTriplets.cs" />
     <Compile Include="CountingValleys.cs" />
     <Compile Include="DiagonalDifference.cs" />
+    <Compile Include="DictionariesHashmaps\RansomNote.cs" />
     <Compile Include="JumpingClouds.cs" />
     <Compile Include="MagicSquare.cs" />
     <Compile Include="MiniMaxSum.cs" />
@@ -63,5 +64,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
