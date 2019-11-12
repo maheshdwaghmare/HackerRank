@@ -39,19 +39,19 @@ namespace HackerRank
             Console.WriteLine(output);
             Console.ReadKey();
         }
-        static void Main(string[] args)
-        {
-            string[] mn = Console.ReadLine().Split(' ');
+        //static void Main(string[] args)
+        //{
+        //    string[] mn = Console.ReadLine().Split(' ');
 
-            int m = Convert.ToInt32(mn[0]);
+        //    int m = Convert.ToInt32(mn[0]);
 
-            int n = Convert.ToInt32(mn[1]);
+        //    int n = Convert.ToInt32(mn[1]);
 
-            string[] magazine = Console.ReadLine().Split(' ');
+        //    string[] magazine = Console.ReadLine().Split(' ');
 
-            string[] note = Console.ReadLine().Split(' ');
+        //    string[] note = Console.ReadLine().Split(' ');
 
-            checkMagazine(magazine, note);
-        }
+        //    checkMagazine(magazine, note);
+        //}
     }
 }

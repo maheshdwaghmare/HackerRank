@@ -51,6 +51,7 @@
     <Compile Include="CountingValleys.cs" />
     <Compile Include="DiagonalDifference.cs" />
     <Compile Include="DictionariesHashmaps\RansomNote.cs" />
+    <Compile Include="DictionariesHashmaps\TwoStrings.cs" />
     <Compile Include="JumpingClouds.cs" />
     <Compile Include="MagicSquare.cs" />
     <Compile Include="MiniMaxSum.cs" />
