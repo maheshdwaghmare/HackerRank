@@ -61,6 +61,7 @@
     <Compile Include="RepeatedString.cs" />
     <Compile Include="SherlockAndValidString.cs" />
     <Compile Include="SockMerchant.cs" />
+    <Compile Include="Sorting\MarkAndToys.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
