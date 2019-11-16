@@ -50,6 +50,7 @@
     <Compile Include="CompareTriplets.cs" />
     <Compile Include="CountingValleys.cs" />
     <Compile Include="DiagonalDifference.cs" />
+    <Compile Include="DictionariesHashmaps\CountTriplets.cs" />
     <Compile Include="DictionariesHashmaps\RansomNote.cs" />
     <Compile Include="DictionariesHashmaps\TwoStrings.cs" />
     <Compile Include="JumpingClouds.cs" />
